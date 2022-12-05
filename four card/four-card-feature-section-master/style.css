@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    background-color:  hsl(230, 12%, 90%);
+    padding: 20px 50px; 
+     
+}
+.text{
+    text-align: center;
+    
+}
+.text h2{
+    font-size: 27px; 
+    color:  hsl(234, 12%, 34%);
+    
+}
+.text p{
+    color:  hsl(234, 12%, 34%);
+}
+#pan{
+    font-weight: bolder;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    margin-top: 30px;
+}
+.one{
+    height: 210px;
+    width: 100%;
+    background-color: hsl(36, 100%, 99%);
+    padding: 20px 20px;
+    border-top: 3px solid hsl(180, 62%, 55%);
+    border-radius: 5px;
+}
+.one h3{
+    color:  hsl(234, 12%, 34%);
+}
+.one p{
+    opacity: 60%;
+}
+.one svg{
+    position: relative;
+    top: 45px;
+    left: 70%;
+}
+.two{
+    height: 210px;
+    width: 100%;
+    background-color: hsl(36, 100%, 99%);
+    padding: 20px 20px;
+    border-top: 3px solid hsl(212, 86%, 64%);
+    border-radius: 5px;
+}
+.two h3{
+    color:  hsl(234, 12%, 34%);
+}
+.two p{
+    opacity: 60%;
+}
+.two svg{
+    position: relative;
+    top: 45px;
+    left: 70%;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+}
+.three{
+    height: 210px;
+    width: 100%;
+    background-color: hsl(36, 100%, 99%);
+    padding: 20px 20px;
+    border-top: 3px solid hsl(0, 78%, 62%);
+    border-radius: 5px;
+}
+.three h3{
+    color:  hsl(234, 12%, 34%);
+}
+.three p{
+    opacity: 60%;
+}
+.three svg{
+    position: relative;
+    top: 45px;
+    left: 70%;
+}
+.four{
+    height: 210px;
+    width: 100%;
+    padding: 20px 20px;
+    background-color: hsl(36, 100%, 99%);
+    border-top: 3px solid hsl(34, 97%, 64%);
+    border-radius: 5px;
+}
+.four h3{
+    color:  hsl(234, 12%, 34%);
+}
+.four p{
+    opacity: 60%;
+}
+.four svg{
+    position: relative;
+    top: 45px;
+    left: 70%;
+}
+
+
+
+
+@media only screen and (max-width: 950px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
